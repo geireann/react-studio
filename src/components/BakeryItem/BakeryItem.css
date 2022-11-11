@@ -1,0 +1,66 @@
+.bakeryItem-container {
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    background: pink;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.item-image {
+    width: 100px;
+}
+
+.image {
+    width: 100px;
+}
+
+.item-info {
+    width: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-description {
+    font-size: 0.8rem;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-price {
+    padding: 3px 10px;
+    width: fit-content;
+    border-radius: 5px;
+    background: white;
+    color: rgb(49, 49, 49);
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.addToCart-button {
+    padding: 3px 10px;
+    width: fit-content;
+    border-radius: 5px;
+    color: white;
+    background: darkred;
+    justify-self: flex-end;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.addToCart-button:hover {
+    background: rgb(89, 0, 0);
+}

@@ -1,0 +1,10 @@
+.item-price {
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
